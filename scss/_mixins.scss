@@ -1,0 +1,24 @@
+@mixin button1 {
+  background-color: #fff;
+  border: 1px solid #f53855;
+  color: #f53855;
+  border-radius: 100px;
+  padding: 0.25rem 1rem;
+}
+@mixin button2 {
+  background-color: #f53838;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 0.7rem;
+  padding: 0.75rem 2.5rem;
+  border: none;
+  box-shadow: -2px 12px 31px -3px #f5383859;
+}
+
+@mixin information__style {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  // justify-content: center;
+  // align-items: center;
+  grid-gap: 0.125rem;
+}
